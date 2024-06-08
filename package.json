@@ -1,0 +1,34 @@
+{
+  "name": "@uplc/discord.jsk",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "author": "Rai",
+  "license": "MIT",
+  "keywords": [
+    "discord.js",
+    "jsk",
+    "jishaku"
+  ],
+  "scripts": {
+    "build": "tsc --d",
+    "link": "pnpm link",
+    "publish": "pnpm publish --access-public"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "discord.js": "^14.15.3",
+    "encoding-japanese": "^2.1.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://www.github.com/sponsors/raidesuuu"
+  },
+  "packageManager": "pnpm@9.2.0+sha512.98a80fd11c2e7096747762304106432b3ddc67dcf54b5a8c01c93f68a2cd5e05e6821849522a06fb76284d41a2660d5e334f2ee3bbf29183bf2e739b1dafa771"
+}
